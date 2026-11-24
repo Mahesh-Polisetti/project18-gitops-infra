@@ -1,0 +1,19 @@
+# Terraform working directory
+**/.terraform/*
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Sensitive Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Local IAM configuration
+trust-policy.json
+terraform-policy.json
+
+# Crash logs
+crash.log
+crash.*.log
